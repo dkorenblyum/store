@@ -1,5 +1,6 @@
 {
   "name": "affiliate-store",
   "dependencies": {
+    "ember-uploader": "0.3.11"
   }
 }
