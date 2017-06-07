@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
 {{outlet}}
+<div class='master-detail'>
+  <div class='master'>
+  </div>
+  <div class='detail'>
+    <div id='image-upload-wrapper'>
+      <label for='new-post'>Upload An Image</label>
+      {{s3-upload id="new-post"}}
+    </div>
+  </div>
+</div>
